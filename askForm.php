@@ -21,20 +21,20 @@ $h5 = $_REQUEST['title'] ;
 
 $totalmessage = "
     Name:       $h4 \n
-  	Title:      $h5 \n
+    Title:      $h5 \n
     Classification: $h2 \n 
-	  Date:       $h3 \n
-	  E-mail:     $h1 \n 
-	  Question1:  $a1 \n
-		Question2:  $a2 \n
-		Question3:  $a3 \n
-	  Question4:  $a4 \n
-		Question5:  $a5 \n
-		Question6:  $a6 \n
-		Question7:  $a7 \n
-	  Question8:  $a8 \n
-		Question9:  $a9 \n
-	  Question10: $a10 \n
+    Date:       $h3 \n
+    E-mail:     $h1 \n 
+    Question1:  $a1 \n
+    Question2:  $a2 \n
+    Question3:  $a3 \n
+    Question4:  $a4 \n
+    Question5:  $a5 \n
+    Question6:  $a6 \n
+    Question7:  $a7 \n
+    Question8:  $a8 \n
+    Question9:  $a9 \n
+    Question10: $a10 \n
     Question11: $a11 \n";
 $headers = "From: $h1";
 $sent = mail($to, $subject, $totalmessage, $headers);
